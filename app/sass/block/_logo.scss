@@ -1,0 +1,30 @@
+.logo {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: $bg-link;
+
+  @media (min-width: 768px) {
+    float: left;
+    width: 30%;
+    padding-top: 43px;
+    padding-left: 3%;
+    background-color: $bg-link;
+  }
+
+  @media (min-width: 1024px) {
+    padding-left: 0;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background-color: $bg-link;
+  }
+  &__pic {
+    display: inline-block;
+    width: 288px;
+    height: 72px;
+  }
+}

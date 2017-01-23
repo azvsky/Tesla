@@ -1,0 +1,34 @@
+.open-menu{
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  background: url("../img/sprite.png")no-repeat -5px -229px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+
+  &:hover {
+    background: url("../img/sprite.png") no-repeat -5px -271px;
+  }
+}
+.close-menu {
+  position: absolute;
+  top: 13px;
+  right: 5px;
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  background: url("../img/sprite.png") no-repeat -5px -145px;
+
+  @media (min-width: 768px) {
+      display: none;
+  }
+
+  &:hover {
+     background: url("../img/sprite.png") no-repeat -5px -187px;
+  }
+}

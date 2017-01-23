@@ -1,0 +1,52 @@
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+  font-family: $MyriadProRegular;
+  src: url("../../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+  url("../../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+  url("../../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+  font-family: $MyriadProBold;
+  src: url("../../fonts/MyriadProBold/MyriadProBold.eot");
+  src: url("../../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+  url("../../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+  url("../../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "pf_beausans_prothin" */
+@font-face {
+  font-family: $PFBeauSansPro;
+  src: url('../../fonts/PFBeauSansProThin/pfbeausanspro-thin-webfont.eot'),
+    url('../../fonts/PFBeauSansProThin/pfbeausanspro-thin-webfont.woff2') format('woff2'),
+    url('../../fonts/PFBeauSansProThin/pfbeausanspro-thin-webfont.woff') format('woff'),
+    url('../../fonts/PFBeauSansProThin/pfbeausanspro-thin-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  width: 100%;
+}
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: $MyriadProRegular;
+  font-style: normal;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $text-color;
+  background-color: $body-bg;
+}
+.clearfix::after {
+  @media (min-width: 768px) {
+      content: "";
+      clear: both;
+      display: table;
+  }
+}

@@ -1,0 +1,48 @@
+//== Colors BASIC
+$white-base: #ffffff;
+$dark_base: #23242e;
+$light-dark_base:  #30313e;
+$light-base: #62647d;
+$grey-light: #cdcdcd;
+$grey-link: #adadad;
+
+//Scaffolding
+$body-bg: $white-base;
+$text-color: $grey-light;
+
+//== Typography
+//$PFBeauSansPro: "PFBeauSansPro-Thin", sans-serif;
+$PFBeauSansPro: "pf_beausans_prothin", sans-serif;
+$MyriadProRegular: "MyriadProRegular", sans-serif;
+$MyriadProBold:"MyriadProBold", sans-serif;
+$font-size:                      20px;
+$font-size--middle:              26px;
+$font-size--big:                 30px;
+$font-size--so_big:              52px;
+$font-size--so_exceptional:      160px;
+
+$line-height-mini: 17px;
+$line-height:      24px;
+$line-height-middle:    30px;
+
+
+$font-size-h1: $font-size--big;
+$font-size-h2: $font-size--big;
+$line-height-h1: 50px;
+
+
+//==button
+$btn-bg: $dark_base;
+$btn-bg--hover: red;
+$btn-bg--active: red;
+$btn-color--hover: yellow;
+
+//link
+$color-link: $grey-link;
+$color-link--hover: $white-base;
+$bg-link: #4d4e62;
+$bg-link--hover: #5f617b;
+$bg-link--active: #454867;
+
+
+

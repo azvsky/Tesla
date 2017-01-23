@@ -1,0 +1,21 @@
+.button-slide {
+  position: absolute;
+  z-index: 100;
+  top: 20%;
+  width: 30px;
+  height: 60px;
+  margin: auto;
+  cursor: pointer;
+  font-size: 0;
+  border: none;
+  outline: none;
+
+  &-prev {
+      background: url("../img/sprite.png") no-repeat -5px -5px;
+  }
+
+  &-next {
+    right: 0;
+    background: url("../img/sprite.png") no-repeat -5px -75px;
+  }
+}
